@@ -1,0 +1,19 @@
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# Generated data
+volumes
+secrets/*
+docker-compose.yml
+build
+
+.wget-hsts
+go*.tar.gz*
+.env
+.bash_history
+
+tmp
+build.env
